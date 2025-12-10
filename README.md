@@ -1,10 +1,10 @@
 # Steam-Data-Collection
-Data collection and preprocessing code for published research on Steam app IDs, time-centric marketing language, and user review analysis.
+Data collection and preprocessing code for published research on Steam game IDs, time-centric marketing language, and user review analysis.
 
 This repository contains the notebooks used to collect Steam game IDs ordered by relevance (https://store.steampowered.com/search?term=) and retrieve related store-page metadata and user reviews for research on time-centric language in Steam user reviews.
 
 The data collection workflow is structured as a small pipeline:
-- Collect Steam app IDs ordered by relevance using the Steam store listing page.
+- Collect Steam game IDs ordered by relevance using the Steam store listing page.
 - Parse these IDs into two collection pathways:
   - Store page metadata collection.
     <img width="759" height="69" alt="image" src="https://github.com/user-attachments/assets/0b89ed67-8ead-4d17-af6a-57729c977524" />
@@ -17,15 +17,15 @@ The notebooks in this repository are adapted and edited versions of existing ope
 **Repository Contents**
 
 _Steam_ID_Collection.ipynb_
-- Collects Steam app IDs ordered by relevance using the Steam store page.
+- Collects Steam game IDs ordered by relevance using the Steam store page.
 - This notebook is an edited and scoped version of Zhihan Zhu’s Steam Review Scraper approach, adjusted to support this project’s ID acquisition process: https://pypi.org/project/steam-review-scraper/
 
 _Steam_Store_Page.ipynb_
-- Uses the collected app IDs to retrieve store-page information.
+- Uses the collected game IDs to retrieve store-page information.
 - This notebook is based on edited code derived from Nik Davis’ implementation, adapted for the project’s data fields and output structure: https://nik-davis.github.io/posts/2019/steam-data-collection/
 
 _Steam_User_Reviews.ipynb_
-- Uses the collected app IDs to retrieve user reviews.
+- Uses the collected game IDs to retrieve user reviews.
 - This notebook is based on an edited version of Haotian Xu’s Steam Reviews implementation, adjusted for batch collection, filtering, and dataset formatting: https://pypi.org/project/steam-reviews/
 
 **Data Collection Notes**
