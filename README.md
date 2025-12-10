@@ -10,7 +10,7 @@ The data collection workflow is structured as a small pipeline:
     <img width="759" height="69" alt="image" src="https://github.com/user-attachments/assets/0b89ed67-8ead-4d17-af6a-57729c977524" />
 
   - User review collection.
-  <img width="1317" height="71" alt="image" src="https://github.com/user-attachments/assets/ed1f6357-7111-48b6-b71a-c16cf46ab0e4" />
+    <img width="1317" height="71" alt="image" src="https://github.com/user-attachments/assets/ed1f6357-7111-48b6-b71a-c16cf46ab0e4" />
 
 The notebooks in this repository are adapted and edited versions of existing open-source tools, with modifications for this project’s specific research aims and data handling needs.
 
